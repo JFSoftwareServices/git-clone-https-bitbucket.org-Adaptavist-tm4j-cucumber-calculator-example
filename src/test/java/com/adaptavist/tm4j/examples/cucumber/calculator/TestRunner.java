@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/calculatorFeatures"
+        features = "src/test/resources/features"
         ,glue={"com/adaptavist/tm4j/examples/cucumber/calculator"}
         ,plugin = {"json:target/cucumber/calculator.json"}
 )
